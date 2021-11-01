@@ -1,0 +1,13 @@
+schemaVersion: 2.0.0
+metadata:
+  name: mygotest
+  version: 1.0.1
+  displayName: mygotest
+  description: mygotest
+  tags: ["go", "test"]
+  projectType: "mygotest"
+components:
+  - name: mygotest
+    container:
+      image: mcr.microsoft.com/vscode/devcontainers/go\
+      mountSources: true
